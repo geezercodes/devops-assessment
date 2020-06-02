@@ -46,4 +46,4 @@ def message_get(message_id):
 
 if __name__ == '__main__':
     db.create_all()
-    app.run('0.0.0.0', 80)
+    app.run('0.0.0.0', 5000)
